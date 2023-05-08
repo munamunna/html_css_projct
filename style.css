@@ -1,0 +1,222 @@
+body{
+    background-color: #FFEBC2;
+    font-family: monospace;
+    margin: 0;
+    line-height: 25px;
+}
+/* ###############################      Header section               ###################################### */
+.box{
+    
+    
+    width: 100%;
+    
+}
+.box{
+   
+    width: 100%;
+    
+    color: #000;
+    opacity: .85;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+
+ .logo{
+    font-weight: bold;
+    font-size: xx-large;
+}
+ .menu{
+    padding: 0;
+    list-style: none;
+    
+    
+}
+ .menu li{
+    margin: 0 10px;
+    font-weight: bold;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background-color: #FFEBC278;
+    /* border-bottom: 1px solid #00000026; */
+    z-index:1;
+    backdrop-filter: blur(20px);
+}
+.menu ul .active{
+    color: #80ff59;
+} 
+/* ############################         header section end           ################################### */
+
+
+
+/* ##############################          LIST STYLE  ##################################################### */
+.container{
+    
+    width: 1000px;
+    max-width: 100%;
+    margin: 60px auto;
+    
+}
+.banner{
+    
+    height: 600px;
+    
+    position: relative;
+
+}
+.banner .tittle{
+    position: absolute;
+    top:0;
+    background-image: linear-gradient(to top right,#FCB116,#FCC210);
+    height: calc(50%-50%);
+    
+    width: 100%;
+    height: 30%;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+    padding-top: 50px;
+}
+.banner .detail{
+    position: absolute;
+    top:20%;
+    left: 5%;
+    background-color: #FFEECE57;
+    backdrop-filter:blur(30px);
+    width: 90%;
+    border-radius: 40px;
+    display: flex;
+    
+    padding: 50px 0;
+    box-shadow: 0 50px 50px #00000042;
+
+}
+.detail_lite{
+    display: flex;
+    flex-direction: column;
+}
+.banner .detail .info .detail_lite,
+.banner .detail .option{
+    padding: 30px;
+
+}
+.banner .detail .info  h2{ 
+    color:#5B5280;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.banner .detail .info .des{
+    opacity: 0.7;
+}
+.banner .detail .img{
+    background-image: radial-gradient(#F8C697,#FFF2D9);
+    border-radius: 50%;
+    transform: rotate(28deg);
+
+}
+.banner .detail .option .ellipse{
+    width: 30px;
+    height: 30px;
+    margin: 20px 5px 20px 0;
+    display: inline-block;
+    border-radius: 50%;
+}
+.card{
+    background-color: #34332E;
+    color:#FCB116;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.container .list{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+  
+    
+    
+    flex-wrap: wrap;
+    gap: 20px 70px;
+    
+    
+   
+
+
+}
+.container .list .item img{
+    width: 80%;
+    transform: rotate(30deg) translate(20px);
+    
+    
+    
+}
+.container .list .item{
+    text-align: center;
+    
+    border-radius: 20px;
+    background-image: radial-gradient(#f1d6bc,#fff);
+    width: 20%;
+    margin-left: 50px;
+    aspect-ratio: 2;
+}
+.container .list .item .content{
+    padding:50px 0 20px ;
+    font-weight: bold;
+}
+/* ############################## LIST STYLE END  ########################################## */
+
+footer{
+    width: 1000px;
+    
+    margin:auto;
+    height:300px;
+    max-width:100%;
+    position: relative;
+}
+footer .title{
+    background-color: #FFEECEB3;
+    backdrop-filter: blur(20px);
+    position:absolute;
+    width: 90%;
+    left: 5%;
+    padding: 50px 0 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+    border-radius: 40px;
+    z-index:2;
+
+
+
+} 
+footer ul{
+    background-color: #FCB116;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    list-style: none;
+    border-radius: 40px;
+    z-index: 1;
+
+}
+footer li{
+    padding: 30px;
+    font-weight: bold;
+}
